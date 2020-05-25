@@ -20,10 +20,10 @@ namespace ReadAllFile
 
         private void buttonRun_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Will open and read the contents of file called \"party list.txt\"");
+            MessageBox.Show("Will open and read the contents of file called \"long-list.txt\"");
             // create the input stream and open file called "party list.txt" 
             StreamReader inputFile;
-            inputFile = File.OpenText("party list.txt");
+            inputFile = File.OpenText("long-list.txt");
             string contents = "";
             while (!inputFile.EndOfStream)
             {
